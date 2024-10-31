@@ -17,7 +17,7 @@ I created an ML-based Flask application that collects a comment from the user an
 The Deployment file manages the deployment of the toxic comment classification application on Kubernetes. It specifies the Docker image, number of replicas, and the container settings needed for the application to run. The Service file creates a NodePort service that exposes the application outside of the Kubernetes cluster, allowing it to be accessed via the Minikube IP and a specified port. This setup ensures that the application can be scaled and accessed consistently while running in the Kubernetes environment.
 
 # Step 2: Helm Chart - Installing Prometheus and Grafana
-``
+<pre>
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add grafana https://grafana.github.io/helm-charts
 helm repo update
@@ -27,7 +27,7 @@ helm install prometheus prometheus-community/prometheus
 
 # Install Grafana
 helm install grafana grafana/grafana
-``
+</pre>
 
 # Step 3: Configure Prometheus Scrape Configs
 Customize the scrape configuration by editing the values.yaml file or by overriding during installation. Example scrape config:
@@ -58,6 +58,9 @@ Add panels to visualize key metrics such as Total HTTP Requests, Memory Usage, a
 
 # Snapshots
 ![Screenshot from 2024-10-31 13-46-12](https://github.com/user-attachments/assets/6d8b7aea-ce29-4d91-8c87-f0ae0ed1c802)
+
+![prometeus-mlops](https://github.com/user-attachments/assets/6b5fbdc3-d7c1-47f0-b818-e830595659b0)
+
 
 ![Screenshot from 2024-10-31 14-51-41](https://github.com/user-attachments/assets/8f53bad9-cac0-4b9d-9f7d-306d22c54788)
 
