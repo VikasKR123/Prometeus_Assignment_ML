@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1730342463917
+current_stage: None
+description: null
+last_updated_timestamp: 1730342463917
+name: toxic_comment_model
+run_id: 480ddb3643264940a2cc608f48dada68
+run_link: null
+source: file:///home/sigmoid/Desktop/prometeus_assignemt_mlops/mlruns/0/480ddb3643264940a2cc608f48dada68/artifacts/toxic_comment_model
+status: READY
+status_message: null
+storage_location: file:///home/sigmoid/Desktop/prometeus_assignemt_mlops/mlruns/0/480ddb3643264940a2cc608f48dada68/artifacts/toxic_comment_model
+user_id: null
+version: 1

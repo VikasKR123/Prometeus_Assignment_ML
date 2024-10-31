@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/prometeus_assignemt_mlops/mlruns/0/480ddb3643264940a2cc608f48dada68/artifacts
+end_time: 1730342463991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 480ddb3643264940a2cc608f48dada68
+run_name: rogue-steed-40
+run_uuid: 480ddb3643264940a2cc608f48dada68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730342454035
+status: 3
+tags: []
+user_id: sigmoid
