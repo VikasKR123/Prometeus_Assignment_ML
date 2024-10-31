@@ -8,9 +8,10 @@ I created an ML-based Flask application that collects a comment from the user an
 
 
 # Prometheus Metrics Collection
-## REQUEST_COUNT: Tracks the total number of requests.
-## COMMENT_COUNT: Tracks the total number of comments submitted.
-
+<pre>
+   > REQUEST_COUNT: Tracks the total number of requests.
+   > COMMENT_COUNT: Tracks the total number of comments submitted.
+</pre>
 
 ## Docker image is available at ``vikaskarbail/toxic-comment-classification.``
 
